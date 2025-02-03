@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      .styled-text {
+        font-family: "Georgia", serif;
+        line-height: 1.6;
+        text-align: justify;
+        max-width: 600px;
+        margin: 10px auto;
+      }
+
+      .image-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      img {
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .caption {
+        font-style: italic;
+        margin-top: 5px;
+      }
+
+      .styled-button {
+        padding: 10px 20px;
+        border: 2px solid #333;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+
+      .styled-button:hover {
+        background-color: #0056b3;
+      }
+
+      table {
+        width: 60%;
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #333;
+        padding: 10px;
+      }
+
+      form {
+        margin-top: 20px;
+      }
+
+      input {
+        padding: 8px;
+        margin: 5px;
+        border: 1px solid #333;
+      }
+
+      button[type="submit"] {
+        padding: 10px 20px;
+        border: none;
+        background-color: #28a745;
+        color: white;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Webpage</h1>
+
+    <p class="styled-text">
+      This is the first paragraph. It has a custom font, line height, and
+      alignment.
+    </p>
+    <p class="styled-text">
+      This is the second paragraph with the same styling applied.
+    </p>
+
+    <div class="image-container">
+      <img src="image.jpeg" alt="A beautiful scenery" />
+      <p class="caption">A Beautiful Scenery</p>
+    </div>
+
+    <button class="styled-button">Click Me</button>
+
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+      <tr>
+        <td>Row 1</td>
+        <td>Row 1</td>
+        <td>Row 1</td>
+      </tr>
+      <tr>
+        <td>Row 2</td>
+        <td>Row 2</td>
+        <td>Row 2</td>
+      </tr>
+    </table>
+
+    <form>
+      <input type="text" placeholder="Enter your name" />
+      <input type="email" placeholder="Enter your email" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
